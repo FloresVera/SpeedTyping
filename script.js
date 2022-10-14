@@ -1,5 +1,4 @@
 const textos = [
-  'probar',
   'When you have eliminated the impossible, whatever remains, however improbable, must be the truth.',
   'There is nothing more deceptive than an obvious fact.',
   'I ought to know by this time that when a fact appears to be opposed to a long train of deductions it invariably proves to be capable of bearing some other interpretation.',
