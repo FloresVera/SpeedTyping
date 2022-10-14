@@ -1,0 +1,82 @@
+ /* Estilos */
+ body {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+ }
+
+ #container,
+ .juego {
+    background-color: #4a4063;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding-bottom: 50px;
+ }
+
+ #inicio {
+    position: center;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+ }
+
+ .modalContainer {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+ }
+
+ .modal-content {
+    background-color: #4a4063;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid white;
+    width: 80%;
+ }
+
+ h2,
+ p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .close {
+    color: red;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .close:hover,
+ .close:focus {
+    color: #989898;
+    text-decoration: none;
+    cursor: pointer;
+ }
+
+ .highlight {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+ }
+
+ .error {
+    background-color: lightcoral;
+    border-color: red;
+ }
